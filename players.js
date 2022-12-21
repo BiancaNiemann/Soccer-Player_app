@@ -1,3 +1,5 @@
+import { getDiceArray } from "./utils.js"
+
 export class Player{
     constructor(data){
         Object.assign(this, data)
@@ -11,6 +13,9 @@ export class Player{
                 </div>
             </div>
         `
+    }
+    get diceArrayHtml(){
+        
     }
     getPlayerHtml(){
         const {name, playerImg, playerScore, diceCount, currentScore } = this
