@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.main-player-card,
+.player-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.name-number{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.name{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.score-bar-outer{
+    width: 300px;
+    background-color: blue;
+    height: 10px;
+}
+
+.score-bar-inner{
+    background-color: aqua;
+    height: 100%;
+}
+
+.score-bar-inner,
+.score-bar-outer {
+    border-radius: 10px;
+}
+
+.danger{
+    background-color: red;
+    height: 100%;
+}
