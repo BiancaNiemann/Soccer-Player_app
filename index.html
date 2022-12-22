@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Who is the Champion</title>
 </head>
 <body>
-    <h1>Play to see who the Champion is!</h1>
-    <div id="main-player-card" class="main-player-card"></div>
-    <div id="player-card" class="player-card"></div>
+    <div id="container" class="container">
+        <h1>Play to see who the Champion is!</h1>
+        <div class="player-selection">
+            <div id="main-player-card" class="main-player-card"></div>
+            <div id="player-card" class="player-card"></div>
+        </div>
+        <button class="shoot" id="shoot">Shoot!</button>
+    </div>
+    <button class="shoot hidden" id="playAgain">Rematch!</button>
+</body>
     <script type="module" src="/index.js"></script>
 </body>
 </html>

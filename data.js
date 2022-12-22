@@ -4,27 +4,31 @@ export const soccerPlayers = {
         playerImg: './Ronaldo.JPG',
         playerScore: 90,
         diceCount: 3,
-        currentScore: []
+        currentScore: [],
+        totalWins: 0
     },
     playerOne: {
         name: 'Messi',
         playerImg: './Messi.JPG',
-        playerScore: 80,
+        playerScore: 50,
         diceCount: 1,
-        currentScore: []
+        currentScore: [],
+        totalWins: 0
     },
     playerTwo: {
         name: 'Neymar Jr',
         playerImg: './Neymar.JPG',
-        playerScore: 70,
+        playerScore: 40,
         diceCount: 2,
-        currentScore: []
+        currentScore: [],
+        totalWins: 0
     },
     playerThree: {
         name: 'Thiago',
         playerImg: './Thiago.JPG',
-        playerScore: 60,
+        playerScore: 20,
         diceCount: 3,
-        currentScore: []
+        currentScore: [],
+        totalWins: 0
     },
 }
